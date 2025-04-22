@@ -1,0 +1,6 @@
+find_bertram_cycles([[1,2],[3,4]], 7, added_support = [5,6,7])
+find_bertram_cycles([[1,2,3],[4,5,6]], 7, added_support = [7])
+find_bertram_cycles([[1,2,3,4],[5,6]], 7, added_support = [7])
+find_bertram_cycles([[1,2,3,4,5]], 7, added_support = [6,7])
+find_bertram_cycles([[1,2,3],[4,5],[6,7]], 7)
+find_bertram_cycles([[1,2,3,4,5,6,7]], 7)
