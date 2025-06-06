@@ -30,6 +30,38 @@ There were 8 signatures of the type [1;k] which did not create examples using th
  	* n=6 [1;4]  (1, 3, 4, 2, 5), (1, 5, 6, 3, 4), (1, 2, 3, 4)(5, 6)
 
   	* n=8 [1;5]  (1, 4)(2, 3), (1, 4, 5, 6, 7, 8, 2), (1, 2, 3, 4, 5)
+ 
+
+
+There were a few failures for signatures of the type $[1;k,k]$ for small, even $n$.
+
+* We ran [other code](https://github.com/jenpaulhus/breuer-modified) to create generating vectors in these cases.
+* Here are the list of generating vectors (given as *a*, *b*, *c1*, *c2*):
+	* n=6 and k=2,4
+	* n=8 and k=2,6
+	* n=12 and k=2,4,6,10,12,14,20,30
+
+
+Because [1;2] (resp. [1;3]) is not an actual signature for n=5 (resp. n=6), we need to also compute $[1;2,2]$ and [1;2,2,2] for n=5 (resp. [1;3,3] for n=6).  Here are those generating vectors
+
+* n=5 [1;2,2]: (1, 5, 4, 3, 2),
+Id($),
+(1, 2)(3, 4),
+(1, 2)(3, 4)
+
+* n=5 [1;2,2,2]: (2, 5, 4),
+(1, 5, 4),
+(1, 2)(3, 4),
+(1, 2)(3, 4),
+(1, 2)(4, 5)
+
+* n=6 [1;3,3] $a=(1\  6\  5\  4)(2 \ 3)$, $b=(1\  5\  6\  3)(2\  4)$, $c_1=(1\ 2\ 3)(4\ 5\ 6)$, and $c_2=(1\  4\ 2)(3\  5 6)$.
+
+
+
+
+
+  
 
 
 
