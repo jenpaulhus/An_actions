@@ -45,10 +45,7 @@ II. There were a few failures for signatures of the type $[1;k,k]$ for small, ev
 
 III. Because [1;2] (resp. [1;3]) is not an actual signature for n=5 (resp. n=6), we need to also compute $[1;2,2]$ and [1;2,2,2] for n=5 (resp. [1;3,3] for n=6).  Here are those generating vectors
 
-* n=5 [1;2,2]: (1, 5, 4, 3, 2),
-Id($),
-(1, 2)(3, 4),
-(1, 2)(3, 4)
+* n=5 [1;2,2]: $a=(1\ 5\ 4\ 3\ 2)$, $b=Id(G)$, $c_1=(1\ 2)(3\ 4)$, $c_2=(1\ 2)(3\ 4)$
 
 * n=5 [1;2,2,2]: (2, 5, 4),
 (1, 5, 4),
