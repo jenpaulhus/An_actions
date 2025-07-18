@@ -1,6 +1,6 @@
 /* Last updated April 19, 2025 */
 
-/* currently requires an n string entered (see botttom) */
+/* currently requires an n string entered (see bottom) */
 /* nohup magma n:="13" bertram.m */
 
 
