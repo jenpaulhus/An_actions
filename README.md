@@ -57,7 +57,16 @@ III. Because [1;2] (resp. [1;3]) is not an actual signature for n=5 (resp. n=6),
 
 IV. We next moved on to [1;k_1,k_2] by showing that there were elements c_1 and c_2 of order k_1 and k_2, respectively, which generate $A_n$.  There were about a dozen failures. We give the elements c_1 and c_2 respectively as well as the signature they satisy below. 
 
+n=5
+[1;2,3]
+(1, 2)(3, 4)
+(1, 5, 4)
 
+
+n=9
+[1;2,3]
+(1, 5)(3, 7)(4, 8)(6, 9)
+(1, 7, 5)(2, 4, 9)(3, 8, 6)
 
 n=10
 [1;2,4]
@@ -123,6 +132,48 @@ $(1\  2\  3\  4\  5\  6\  7\  8\  9\  10\  11\  12\  13\  14\  15\  16\  17\  18
 
 
 
+
+
+
+V. Special cases for n=6,7,8
+
+n=6
+[1;2,2,3]
+(1, 3)(2, 4)
+(1, 4)(2, 3)
+(1, 2, 4)(3, 5, 6)
+
+[1;2,3,3]
+(1, 3)(2, 4)
+(1, 3, 2)
+(1, 2, 4)(3, 5, 6)
+
+
+n=7
+
+[1;2,2,3]
+(1, 2)(3, 4)
+(1, 7)(2, 3)
+(1, 6, 4)(3, 7, 5)
+
+[1;2,3,3]
+(1, 2)(3, 4)
+(1, 2, 3)
+(1, 6, 4)(3, 7, 5)
+
+
+n=8
+[1;2,2,3]
+(1, 3)(2, 4)
+(2, 3)(4, 5)
+(1, 7, 5)(4, 8, 6)
+
+[1;2,3,3]
+(1, 3)(2, 4)
+(1, 3, 2)
+(1, 7, 5)(4, 8, 6)
+
+(also tested [1;2,3] but the 2 and 3 don't generate the group alone)
 
 
 
