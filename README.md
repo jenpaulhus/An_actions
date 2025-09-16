@@ -23,7 +23,7 @@ I. There were 8 signatures of the type $[1;k]$ which did not create examples usi
 
   	* $n=8$ $[1;5]$:  $(1\  4)(2\  3)$, $(1\  4\  5\  6\  7\  8\  2)$, and $(1\  2\  3\  4\  5)$
  
-
+<br><br>
 
 II. There were a few failures for signatures of the type $[1;k,k]$ for small, even $n$.
 
@@ -116,7 +116,8 @@ $n=38$ $[1;4, 32]$: $(1\  2\  3\  4\  5\  6\  7\  8\  9\  10\  11\  12\  13\  14
 $(1\  33\  38\  37\  36\  35\  32\  31\  30\  29\  28\  27\  26\  25\  24\  23)(8\  34\  22\  21\  20\  19\  18\  17\  16\  15\  14\  13\  12\  11\  10\  9)$
 
 
-
+ 
+<br><br>
 
 V. Special cases for $n=6$, $7$, and $8$ where we need to show two elements of order $2$ and one of order $3$, and vice versa which generate $A_n$. (An element of order $2$ and one of order $3$ alone do not generate the group.) Below we list just the elements of order $2$ and $3$ which generate the groups.
 
