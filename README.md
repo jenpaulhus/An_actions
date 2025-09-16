@@ -47,13 +47,9 @@ III. Because [1;2] (resp. [1;3]) is not an actual signature for n=5 (resp. n=6),
 
 * n=5 [1;2,2]: $a=(1\ 5\ 4\ 3\ 2)$, $b=Id(G)$, $c_1=(1\ 2)(3\ 4)$, $c_2=(1\ 2)(3\ 4)$
 
-* n=5 [1;2,2,2]: (2, 5, 4),
-(1, 5, 4),
-(1, 2)(3, 4),
-(1, 2)(3, 4),
-(1, 2)(4, 5)
+* n=5 [1;2,2,2]: $a=(2\  5\  4)$, $b=(1\  5\  4)$,$c_1=(1\  2)(3\  4)$, $c_2=(1\  2)(3\  4)$, $c_3=(1\  2)(4\  5)$
 
-* n=6 [1;3,3] $a=(1\  6\  5\  4)(2 \ 3)$, $b=(1\  5\  6\  3)(2\  4)$, $c_1=(1\ 2\ 3)(4\ 5\ 6)$, and $c_2=(1\  4\ 2)(3\  5 6)$.
+* n=6 [1;3,3] $a=(1\  6\  5\  4)(2 \ 3)$, $b=(1\  5\  6\  3)(2\  4)$, $c_1=(1\ 2\ 3)(4\ 5\ 6)$, and $c_2=(1\  4\ 2)(3\  5 6)$
 
 IV. We next moved on to [1;k_1,k_2] by showing that there were elements c_1 and c_2 of order k_1 and k_2, respectively, which generate $A_n$.  There were about a dozen failures. We give the elements c_1 and c_2 respectively as well as the signature they satisy below. 
 
@@ -135,45 +131,38 @@ $(1\  2\  3\  4\  5\  6\  7\  8\  9\  10\  11\  12\  13\  14\  15\  16\  17\  18
 
 
 
-V. Special cases for n=6,7,8
+V. Special cases for $n=6$,$7$, and $8$ where we need to show two elements of order $2$ and one of order $3$, and vice versa which generate $A_n$. (An element of order $2$ and one of order $3$ alone do not generate the group.) Below we list just the elements of order $2$ and $3$ which generate the groups.
 
 n=6
 [1;2,2,3]
-(1, 3)(2, 4)
-(1, 4)(2, 3)
-(1, 2, 4)(3, 5, 6)
+$(1 \ 3)(2\ 4)$, $(1\ 4)(2\ 3)$,  $(1 \ 2 \ 4)(3\ 5\ 6)$
 
 [1;2,3,3]
-(1, 3)(2, 4)
-(1, 3, 2)
-(1, 2, 4)(3, 5, 6)
+$(1\ 3)(2\ 4)$, $(1\ 3\ 2)$, $(1\ 2\  4)(3\ 5\ 6)$
 
 
 n=7
-
 [1;2,2,3]
-(1, 2)(3, 4)
-(1, 7)(2, 3)
-(1, 6, 4)(3, 7, 5)
+(1\ 2)(3\ 4)
+(1\  7)(2\  3)
+(1\  6\  4)(3\  7\  5)
 
 [1;2,3,3]
-(1, 2)(3, 4)
-(1, 2, 3)
-(1, 6, 4)(3, 7, 5)
+(1\  2)(3\  4)
+(1\  2\  3)
+(1\  6\  4)(3\  7\  5)
 
 
 n=8
-[1;2,2,3]
-(1, 3)(2, 4)
-(2, 3)(4, 5)
-(1, 7, 5)(4, 8, 6)
+[1;2, 2,3]
+(1 \ 3)(2\  4)
+(2 \ 3)(4\  5)
+(1\  7\  5)(4\  8\  6)
 
-[1;2,3,3]
-(1, 3)(2, 4)
-(1, 3, 2)
-(1, 7, 5)(4, 8, 6)
-
-(also tested [1;2,3] but the 2 and 3 don't generate the group alone)
+[1;2, 3,3]
+(1\  3)(2\  4)
+(1\  3\  2)
+(1\  7\  5)(4\  8\  6)
 
 
 
