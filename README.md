@@ -1,5 +1,5 @@
 # An_actions
-This repository is a supplement to the paper *Signatures of alternating group actions with non-zero quotient genus*. Here we compute signatures of group actions for $An$ with $n \leq 40$ to complete the proof that all potential signatures are indeed actual signatures for $A_n$ with $n \geq 7$.    
+This repository is a supplement to the paper *Signatures of alternating group actions with non-zero quotient genus*. Here we compute signatures of group actions for $An$ with $n \leq 40$ to complete the proof that all potential signatures for quotient genus greater than $0$ are indeed actual signatures for $A_n$ with $n \geq 7$.    
 
 The code was run in Magma 2.28-14 and python3. This work utilized resources from Unity, a collaborative, multi-institution high-performance computing cluster managed by UMass Amherst Research Computing and Data.
 
